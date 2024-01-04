@@ -1,0 +1,293 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: url('images/6.jpg') center/cover, linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+    text-align: center;
+    padding: 20px 50px 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the start (top) of the container */
+    position: relative;
+}
+
+header h1 {
+    padding: 120px 0 0 0;
+    line-height: 1; /* Ensures no extra space above and below the text */
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#what {
+    font-size: 18px;
+}
+
+.buy-button {
+    background-color: #FF9900; /* Amazon logo color */
+    color: #000; /* Text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: fit-content; 
+    border-radius: 8px; 
+    margin: 0 auto;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+}
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+nav {
+        flex-direction: row; /* Keep items horizontal on smaller screens */
+        justify-content: center;            
+    }
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.section {
+    padding: 40px;
+}
+
+
+.rounded-block {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#info1 {
+    background: url('images/back-white.jpg') center/cover; 
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+#info1 p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.wrapper-author {
+    background-image: linear-gradient(to top, rgba(246,246,246,0.5), rgba(222,222,222,0.5));
+    margin: auto;
+}
+
+#author {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.author-container {
+    text-align: center;
+}
+
+.author-photo {
+    width: 220px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author-facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.author-facts p {
+    width: 30%; /* Adjust as needed based on your design */
+    margin: 10px;
+    text-align: left;
+    /* height: 50px; */
+    font-size: 16px;
+    font-family: 'OCEANIC-another',Arial,sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+}
+
+.icon {
+    width: 50px; /* Adjust the width based on your design */
+    height: 50px; /* Adjust the height based on your design */
+    margin-right: 5px; /* Add some space between the icon and text */
+}
+
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.larger-icon {
+    width: 60px; /* Adjust the width based on your design */
+    height: 60px; /* Adjust the height based on your design */
+    border-radius: 50%;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; 
+}
+
+.wrapper-options {
+    background: url('images/back-white.jpg') center/cover;
+    margin: auto;
+}
+
+#options {
+    width: 80%;
+    margin: auto;
+    /* display: inline-block; */
+}
+
+.option-card {
+    width: 300px; 
+    margin: 20px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    background: url('images/back-smooth.jpg') center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1; 
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    display: inline-block;
+
+}
+
+.card-header {
+    height: 150px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Set the direction to column */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center; /* Center the text horizontally */
+}
+
+.option-card ul {
+    padding: 20px;
+}
+
+.option-card li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.option-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add FontAwesome icons styles - Make sure to include FontAwesome in your project */
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-instagram:before {
+    content: '\f16d';
+}
+
+.fa-youtube:before {
+    content: '\f167';
+}
+
+.fa-envelope:before {
+    content: '\f0e0';
+}
+
+
+.checkbox-icon {
+    display: inline-block;
+    width: 20px; /* Adjust the size based on your design */
+    height: 20px; /* Adjust the size based on your design */
+    background-color: #4CAF50; /* Green color */
+    border-radius: 50%; /* Make it a circle */
+    color: white; /* Color of the checkmark */
+    text-align: center;
+    line-height: 20px; /* Center the checkmark vertically */
+    margin-right: 10px; /* Adjust the spacing between checkbox and text */
+}
