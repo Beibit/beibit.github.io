@@ -310,7 +310,7 @@ th, td {
     line-height: 1;
     font-size: 18px;
     min-width: 300px;
-    height: 60vh;
+    min-height: 60vh;
 }
 
 .box div {
