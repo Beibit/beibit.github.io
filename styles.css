@@ -115,7 +115,7 @@ th, td {
     /* background-image: linear-gradient(to top, rgba(246,246,246,0.5), rgba(222,222,222,0.5)); */
     /* background: #c38fda; */
     background: linear-gradient(to top, rgb(94, 138, 164), #ffffff);
-    margin: auto;
+    margin: 100px auto;
 }
 
 #author {
@@ -301,7 +301,7 @@ th, td {
 .box {
     width: 60%;
     margin: auto;
-    padding: 20px;
+    padding: 50px 20px;
     background: #d558d4; 
     align-items: center;
     justify-content: center;
@@ -310,12 +310,14 @@ th, td {
     line-height: 1;
     font-size: 18px;
     min-width: 300px;
+    height: 60vh;
 }
 
 .box div {
     padding-top: 10px;
     font-size: 18px;
 }
+
 .box p {
     padding-top: 10px;
     font-size: 18px;
