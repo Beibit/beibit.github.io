@@ -5,7 +5,7 @@ body,html {
 }
 
 header {
-    background: url('images/6.jpg') center/cover, linear-gradient(to right, #4b6cb7, #182848);
+    background: url('images/6.jpg') center/cover,linear-gradient(to right, #4b6cb7, #182848); 
     color: #fff;
     text-align: center;
     padding: 20px 50px 50px;
@@ -17,8 +17,8 @@ header {
 }
 
 header h1 {
-    padding: 120px 0 0 0;
-    line-height: 1; /* Ensures no extra space above and below the text */
+    padding: 110px 0 0 0;
+    line-height: 1;
 }
 
 .wrapper {
@@ -45,6 +45,7 @@ header h1 {
 
 
 nav {
+    white-space: nowrap;
     position: fixed;
     top: 0;
     left: 50%;
@@ -69,10 +70,12 @@ nav a {
     text-decoration: none;
     margin: 0 5px;
     font-size: 16px;
+    min-width: 50px;
+    text-align: center; 
 }
 
 .section {
-    padding: 40px;
+    padding: 40px 0;
 }
 
 
@@ -80,7 +83,7 @@ nav a {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 15px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 #info1 {
@@ -108,7 +111,9 @@ th, td {
 }
 
 .wrapper-author {
-    background-image: linear-gradient(to top, rgba(246,246,246,0.5), rgba(222,222,222,0.5));
+    /* background-image: linear-gradient(to top, rgba(246,246,246,0.5), rgba(222,222,222,0.5)); */
+    /* background: #c38fda; */
+    background: linear-gradient(to top, rgb(94, 138, 164), #ffffff);
     margin: auto;
 }
 
@@ -196,7 +201,7 @@ th, td {
     width: 300px; 
     margin: 20px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
-    background: url('images/back-smooth.jpg') center/cover; 
+    background: url('images/back-smooth.jpg') center/cover, linear-gradient(to right, #4b6cb7, #182848);; 
     border-radius: 20px;
     overflow: hidden;
     flex: 1; 
@@ -290,4 +295,22 @@ th, td {
     text-align: center;
     line-height: 20px; /* Center the checkmark vertically */
     margin-right: 10px; /* Adjust the spacing between checkbox and text */
+}
+
+.box {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    background: #d558d4; 
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    line-height: 1;
+    font-size: 18px;
+}
+
+.box div {
+    padding-top: 10px;
+    font-size: 18px;
 }
