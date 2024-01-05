@@ -28,6 +28,7 @@ header h1 {
 
 #what {
     font-size: 18px;
+    min-width: 300px;
 }
 
 .buy-button {
@@ -298,7 +299,7 @@ th, td {
 }
 
 .box {
-    width: 75%;
+    width: 60%;
     margin: auto;
     padding: 20px;
     background: #d558d4; 
@@ -308,9 +309,14 @@ th, td {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     line-height: 1;
     font-size: 18px;
+    min-width: 300px;
 }
 
 .box div {
+    padding-top: 10px;
+    font-size: 18px;
+}
+.box p {
     padding-top: 10px;
     font-size: 18px;
 }
