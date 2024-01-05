@@ -12,7 +12,7 @@ document.addEventListener("scroll", function() {
   function openWhatsApp(option) {
     // Replace '123456789' with the actual phone number
     // and 'Здравствуйте, я хочу купить ваш товар' with your desired message
-    var phoneNumber = '+77075665985';
+    var phoneNumber = '+77054278406';
 
     var message = encodeURIComponent('Здравствуйте, я хочу приобрести Data Science Roadmap. Меня интересует пакет ' + option + '.');
     
